@@ -1,0 +1,5 @@
+inherit gtkmm
+
+PKG_NAMES="${PN} libgeglmm3 libgeglmm-devel"
+libgeglmm3_CONTENTS="usr/bin/cyggeglmm-3.dll usr/share/doc/"
+libgeglmm_devel_CONTENTS="usr/include/ usr/lib/"
